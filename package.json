@@ -1,0 +1,28 @@
+{
+  "name": "restapp-boilerplate",
+  "version": "1.0.0",
+  "description": "A RESTApp boilerplate",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitevision/restapp-boilerplate.git"
+  },
+  "scripts": {
+    "setup": "grunt setup",
+    "zip": "grunt zip",
+    "deploy": "grunt deploy",
+    "force-deploy": "grunt deploy --force-deploy"
+  },
+  "license": "MIT",
+  "author": "SiteVision AB",
+  "bugs": {
+    "url": "https://github.com/sitevision/restapp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sitevision/restapp-boilerplate#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-http-upload": "^0.3.2",
+    "grunt-prompt": "^1.3.0"
+  }
+}
