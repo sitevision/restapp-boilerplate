@@ -1,0 +1,7 @@
+{
+  "username": "example",
+  "password": "secret",
+  "domain": "example.com",
+  "siteName": "example",
+  "addonName": "example"
+}
