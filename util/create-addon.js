@@ -1,7 +1,7 @@
 var
-   queryString   = require('querystring');
    request       = require('request');
    properties    = require('../util/properties');
+   queryString   = require('querystring');
 
 (function () {
    var props = properties.getDevProperties(),
