@@ -1,12 +1,9 @@
 var
-   qsIconv       = require('qs-iconv');
    queryString   = require('querystring');
    request       = require('request');
    properties    = require('../util/properties');
 
 (function () {
-   queryString.escape = qsIconv.encoder('win1250');
-
    var props = properties.getDevProperties(),
       url = `https://${props.username}:${props.password}@${props.domain}/rest-api/1/0/${queryString.escape(props.siteName)}/Addon%20Repository/headlesscustommodule`;
 
