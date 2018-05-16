@@ -7,7 +7,7 @@ var
    var props = properties.getDevProperties(),
       url = `https://${props.username}:${props.password}@${props.domain}/rest-api/1/0/${queryString.escape(props.siteName)}/Addon%20Repository/headlesscustommodule`;
 
-   request.post({url: url, form: {name: props.addonName, category: 'Other'}}, (err, httpResponse, body) => {
+   request.post({url: url, form: {name: props.addonName}}, (err, httpResponse, body) => {
       if (err) {
          return console.error('Addon creation failed:', err);
       }
