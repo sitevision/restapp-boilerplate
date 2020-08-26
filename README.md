@@ -1,3 +1,5 @@
+# DEPRECATED use create-sitevision-app
+
 # restapp-boilerplate
 Boilerplate code for a simple RESTApp
 ## Setup
